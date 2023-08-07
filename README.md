@@ -18,3 +18,6 @@ pyenv versions
 ```
 
 - pipenv
+```
+$ pip install pipenv
+```
