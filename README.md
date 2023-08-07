@@ -29,3 +29,11 @@ $ pipenv shell
 $ pipenv shell
 $ pipenv install streamlit
 ```
+
+## RUN
+- streamlit run app.py
+
+## REF
+- https://30days.streamlit.app/?challenge=Day2
+
+
