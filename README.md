@@ -31,16 +31,16 @@ $ pipenv install streamlit
 ```
 
 ## RUN
-- streamlit run app.py
+- cd app;streamlit run app.py
 
 ## DEPLOY
 ```
-$ docker build -t tatiatic-webapp:0.1.0
+$ docker build -t tatiatic-webapp:0.2.4
 $ docker images tatiatic-webapp
 REPOSITORY        TAG       IMAGE ID       CREATED          SIZE
 tatiatic-webapp   0.1.0     c891796ee3ba   18 seconds ago   1.05GB
 
-$ docker run --name tatiatic-webapp010 -d -p 7010:8051 tatiatic-webapp:0.1.0
+$ docker run --name tatiatic-webapp024 -d -p 7024:8051 tatiatic-webapp:0.2.4
 $ sudo docker ps
 CONTAINER ID   IMAGE                     COMMAND                  CREATED         STATUS                            PORTS                                                 NAMES
 b17d1a501ee9   tatiatic-webapp:0.1.0     "streamlit run app.p…"   7 seconds ago   Up 6 seconds (health: starting)   8501/tcp, 0.0.0.0:7010->8051/tcp, :::7010->8051/tcp   tatiatic-webapp010

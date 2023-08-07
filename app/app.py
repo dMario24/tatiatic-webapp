@@ -61,7 +61,7 @@ preprocessedJSON = json.dumps(preprocessedData)
 pred = requests.post(
     url="https://tatiatic-ml-api.fly.dev/predict/", data=preprocessedJSON)
 # display survival probability
-st.image("./static/titanic.jpg", use_column_width=True)
+st.image("static/titanic.jpg", use_column_width=True)
 st.write("Your chance of Survival based on the information provided is: {}%.".format(pred.json()))
 
 if st.checkbox("Show Details"):

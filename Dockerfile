@@ -9,10 +9,10 @@ RUN apt-get update && apt-get install -y \
     git \
     && rm -rf /var/lib/apt/lists/*
 
-COPY requirements.txt .
-COPY app.py .
+COPY ./app /app
 
-RUN pip3 install -r requirements.txt
+COPY requirements.txt .
+RUN pip3 install --no-cache-dir --upgrade -r requirements.txt
 
 EXPOSE 8501
 
