@@ -20,4 +20,6 @@ pyenv versions
 - pipenv
 ```
 $ pip install pipenv
+$ pipenv --python 3.9.16
+$ pipenv shell
 ```
