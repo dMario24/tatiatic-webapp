@@ -4,4 +4,17 @@
 
 ## DEV
 - python 3.9
-- pyenv + pipenv
+
+- pyenv
+```
+$ pyenv install --list
+$ pyenv install 3.9.16
+$ pyenv global 3.9.16
+$ pyenv versions
+pyenv versions
+  system
+  3.7.16
+* 3.9.16 (set by /home/tom/.pyenv/version)
+```
+
+- pipenv
