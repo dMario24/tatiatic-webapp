@@ -48,3 +48,4 @@ b17d1a501ee9   tatiatic-webapp:0.1.0     "streamlit run app.p…"   7 seconds ag
 
 ## REF
 - https://30days.streamlit.app/?challenge=Day2
+- https://huggingface.co/docs/hub/spaces-sdks-streamlit
