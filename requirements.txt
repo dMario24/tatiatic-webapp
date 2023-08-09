@@ -1,1 +1,5 @@
+pydantic
+pandas
 streamlit
+requests
+
