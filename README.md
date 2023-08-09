@@ -34,6 +34,7 @@ $ pipenv install streamlit
 - streamlit run app.py
 
 ## DEPLOY
+- docker
 ```
 $ docker build -t tatiatic-webapp:0.1.0
 $ docker images tatiatic-webapp
@@ -45,6 +46,13 @@ $ sudo docker ps
 CONTAINER ID   IMAGE                     COMMAND                  CREATED         STATUS                            PORTS                                                 NAMES
 b17d1a501ee9   tatiatic-webapp:0.1.0     "streamlit run app.p…"   7 seconds ago   Up 6 seconds (health: starting)   8501/tcp, 0.0.0.0:7010->8051/tcp, :::7010->8051/tcp   tatiatic-webapp010
 ```
+
+- fly.io
+```
+$ fly deploy
+```
+
+- github-action
 
 ## REF
 - https://30days.streamlit.app/?challenge=Day2
